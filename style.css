@@ -86,33 +86,111 @@ nav li a {
 
 /* second section code start here */
 
-.second-section{
+.second-section {
   display: flex;
   align-items: center;
   margin: 50px;
 }
 
-.img-section{
+.img-section {
   margin: 15px;
 }
 
-.img-image{
+.img-image {
   padding: 10px;
 }
 
-.second-title{
+.second-title {
   font-size: 45px;
 }
 
-.frist-span{
+.frist-span {
   color: var(--dark-03-color);
 }
 
-.second-span{
+.second-span {
   color: var(--btn-color);
 }
 
-.second-description{
+.second-description {
   font-size: 18px;
   color: var(--dark-03-color);
+}
+
+
+
+/* third section code start here */
+
+
+/* fourth section code start here */
+
+
+.container h3{
+  margin: 50px;
+  font-size: 35px;
+  font-weight: bold;
+  color: var(--dark-01-color);
+}
+
+.container p{
+  font-size: 16px;
+  margin: 50px;
+  color: var(--dark-03-color);
+}
+
+.icons-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons{
+  margin: 30px;
+  padding: 50px;
+  text-align: center;
+  border: 1px solid var(--btn-color);
+  
+}
+
+.icons h3{
+  font-size: 35px;
+  color: var(--dark-02-color);
+}
+
+.icons p{
+  font-size: 30px;
+  color: var(--dark-03-color);
+}
+
+
+/* footer section code start here */
+.footer-container{
+  text-align: center;
+}
+
+.footer-contact h3{
+  padding-top: 20px;
+  margin: 24px;
+  font-size: 35px;
+  color: var(--dark-01-color);
+}
+
+.footer-contact p{
+  font-size: 16px;
+  color: var(--dark-03-color);
+  padding-bottom: 10px;
+}
+
+
+.spotify{
+  margin: 50px;
+}
+
+.footer-end{
+  margin: 100px;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  background: #FFF4E7;
+  color: var(--dark-02-color);
 }
