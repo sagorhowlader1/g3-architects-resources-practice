@@ -3,6 +3,8 @@
 
 
 *{
+  /* margin: 0; */
+  /* padding: 0; */
   font-family: "Work Sans", sans-serif;
 }
 
@@ -22,4 +24,65 @@
 /* header code start here */
 
 
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 150px;
+}
 
+
+.nav-title{
+  font-weight: bold;
+  font-size: 45px;
+  color: var(--dark-01-color);
+}
+
+nav ul{
+  display: flex;
+  
+}
+
+nav ul li{
+  list-style: none;
+  margin-right: 40px;
+}
+
+nav li a{
+  font-size: 18px;
+  text-decoration: none;
+  color: var(--dark-02-color);
+}
+
+.banner{
+  text-align: center;
+  background-color: #ff8f0e18;
+  margin-top: -50px;
+}
+
+.banner-title{
+  font-weight: bold;
+  font-size: 65px;
+  color: var(--dark-01-color);
+  padding-top: 50px;
+}
+
+
+.banner-description{
+  font-size: 16px;
+  color: var(--dark-03-color);
+}
+
+.btn-banner{
+  font-size: 18px;
+  margin: 25px;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 10px;
+  color: var(--white-color);
+  background-color: #FF900E;
+}
+
+.img-banner{
+  margin: 40px;
+}
